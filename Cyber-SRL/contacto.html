@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/Logo.ico">
+        <link rel="manifest" href="site.webmanifest">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <script src="https://kit.fontawesome.com/17121ed486.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    
+        <meta name="theme-color" content="#fafafa">
+    </head>
+
+<script>
+	function evento_onclick(){
+		alert("Gracias todos los datos han sido enviados correctamente, pronto le estaremos respondiendo....Presione aceptar para actualizar la pagina.");
+	}
+	function event_onclick(){
+		alert("Se acaban de eliminar todos sus datos, proceda a escribirlos nuevamente");
+	}
+</script>
+<body>
+    <header class="site-header">
+        <div class="hero">
+            <div class="contenido-header">
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+                <div class="informacion-evento">
+                    <div class="clearfix">
+                        <p class="fecha"><i class="fas fa-calendar-alt"></i> 10-12 Dic</p>
+                        <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Santo Domingo, RD</p>
+                    </div>
+
+                    <h1 class="nombre-sitio">Cyber SRL</h1>
+                    <p class="slogan">Tu Aliado <span>Informatico</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="barra">
+        <div class="contenedor clearfix">
+            <div class="logo">
+                <H1 class="Sr" font size="7">Contacto</H1>
+            </div>
+            <div class="menu-movil">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navegacion-principal clearfix">
+                <a href="index.html">Inicio</a>
+                <a href="Quienes Somos.html">Quienes Somos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </div>
+    <p></p>
+
+    <section class="seccion contenedor">
+        <h2>Contacto</h2>
+        <p>Contáctenos si tiene alguna duda o solicitud relacionada con nuestra empresa o nuestros servicios. Haremos todo lo posible por darle respuesta a la brevedad.        </p>
+        <br>
+    <center>
+    <table class="Formulario">
+        <form onsubmit="evento_onclick()"> 
+            <tr>
+                <td><label>Nombres:</label></td>
+                <td><input id="nombres" name="nombres" type="text" required minlength="3"></td>
+            </tr>
+            <tr>
+                <td><label>Apellidos:</label></td>
+                <td><input id="apellidos" name="apellidos" type="text" required minlength="3"></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input id="email" name="email" required minlength="6"></td>
+            </tr>
+            <tr>
+                <td><label>Teléfono:</label></td>
+                <td><input id="telefono" name="telefono" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label>Mensaje:</label></td>
+                <td><textarea onselect="selecion()" required></textarea></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><input id="enviar" name="enviar" type="submit" value="Envia"/></td>
+                <td><input id="reset" type="reset" value="Reset" onclick="event_onclick()"/></td>
+            </tr>
+        </form>
+    </table>
+</center>
+    </section>
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="footer-informacion">
+                <h3>Sobre <span>Cyber SRL</span></h3>
+                <p>
+                    Un equipo de profesionales apasionados, cuya meta principal es satisfacer las necesidades de nuestros clientes. Gestionamos herramientas maravillosas que implementadas en tu negocio te aportarán más facilidades y mejores resultados.</p>
+            </div>
+            <div class="sobreCyber">
+                <h3>CONÉCTATE <span>CON NOSOTROS</span></h3>
+                <ul>
+                    <td><a href="#"></a><img src="img/Telefono.ico"
+                    alt="Telefono">    <b>809-542-5248</b></a></td>
+                            <p>
+                        <td><a href="#" font size="1"><img src="img/gmail.ico"
+                            alt="GMAIL"></a></td>   <b>info@Cybersrl.com.do</b>
+                </ul>
+            </div>
+
+            <div class="menu">
+                <h3>Redes <span>Sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="https://www.facebook.com/Cyber-SRL-100446355834910/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div>
+
+        </div>
+
+        <p class="copyright">Todos los derechos Reservados Cyber SRL 2021.</p>
+    </footer>
+
+</body>
+
+</html>
